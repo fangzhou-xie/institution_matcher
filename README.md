@@ -8,5 +8,6 @@ TODO: fuzzy match of institution name as well
 
 Usage:
 
-    im = InstitutionMatcher()
-    im.parse('Stanford University')
+    \>\>\> im = InstitutionMatcher()
+    \>\>\> im.match('Stanford University')
+    ('grid.168010.e', 'Stanford University', 'Stanford', 'California', 'United States')
